@@ -10,7 +10,7 @@ challenges with Excel:
   4. Time Consuming
 
 Solution
-A Proprocessor utility built on python & pandas allows us to find exclusive columns and records from two sources. It stores the Extra results for later view and removes them from both python objects taken built on the data from CSV files. Note - Your original sources remain intact.
+A Proprocessor utility built on python & pandas allows us to find exclusive columns and records from two sources. It stores the Extra results for later view and remove them from both python objects built on the data from CSV files. Note - Your original csv files both sources will remain intact.
 
 Benifits
 1. Quick results
@@ -19,6 +19,7 @@ Benifits
 4. Uses the new dataclasses functionality in python.
 
 Usage
+
 python Preprocessor.py src1_data.csv src2_data.csv  sources=[qa,prod] pk=[ID] Extras2.xlsx
 
 sources=give the names of the output Normalized csvs
