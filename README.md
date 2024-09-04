@@ -4,9 +4,9 @@ Problem Statement:
 While processing(Eg- comparing) huge data from two sources, we need to find which columns and records are extra in which source. Finding this via Excel could have some challenges. Other systems/ scripts may not be able to work with different no. of records.
 
 challenges with Excel:
-  1. It may lead to EXcel window showing 'Not Responding' when there is huge data.
+  1. It may lead to Excel window showing 'Not Responding' when there is huge data.
   2. Vlookup etc may not be beginner friendly
-  3. Cannot directly use it as preprocessor that can fed to an automated system (Manual intervention).
+  3. Cannot directly use it as preprocessor that can be fed to an automated system (Manual intervention).
   4. Time Consuming
 
 Solution
@@ -21,9 +21,17 @@ Benifits
 Usage
 python Preprocessor.py src1_data.csv src2_data.csv  sources=[qa,prod] pk=[ID] Extras2.xlsx
 
+sources=give the names of the output Normalized csvs
+pk=Primary key. Eg - ID
+
+(Do not give space) 
+
 Output
 
-Eg - Extras.xlsx
+qa_Normalized.csv
+prod_Normalized.csv
+Extras.xlsx
+
 
 
 
