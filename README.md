@@ -24,8 +24,6 @@ python Preprocessor.py src1_data.csv src2_data.csv  sources=[qa,prod] pk=[ID] Ex
 sources=give the names of the output Normalized csvs
 pk=Primary key. Eg - ID
 
-(Do not give space) 
-
 Output
 
 qa_Normalized.csv
