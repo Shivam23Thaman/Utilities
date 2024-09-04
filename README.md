@@ -19,12 +19,7 @@ Benifits
 4. Uses the new dataclasses functionality in python.
 
 Usage
-python Preprocessor.py
-
-1. Read two CSV files 
-2. In src1_exclusive_records, src2_exclusive_records = find_extra_records(src1_df, src2_df, ['ID'], "QA", "Prod")
-   1. replace 'ID' with Primary key(Unique Column(s))
-   2. Replace the two source names -> Eg - QA, prod
+python Preprocessor.py src1_data.csv src2_data.csv  sources=[qa,prod] pk=[ID] Extras2.xlsx
 
 Output
 
