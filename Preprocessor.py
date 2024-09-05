@@ -111,7 +111,6 @@ def main(src1_file: str, src2_file: str, sources: list, pk: list, excel_output: 
     sheet2.insert_data(combined_exclusive_records)
     sheet2.apply_style() 
 
-    # Save the workbook
     workbook.save_workbook()
 
 if __name__ == "__main__":
@@ -128,7 +127,6 @@ if __name__ == "__main__":
     sources = args.sources.split('=')[1].strip('[]').split(',')
     pk = args.pk.split('=')[1].strip('[]').split(',')
 
-    # Clean up whitespace
     sources = [source.strip() for source in sources]
     pk = [key.strip() for key in pk]
 
