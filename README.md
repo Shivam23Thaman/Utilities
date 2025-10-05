@@ -10,6 +10,7 @@ challenges with Excel:
   4. Time Consuming
 
 Solution:
+
 A Proprocessor utility built on python & pandas that allows us to find exclusive columns and records from two sources. It stores the Extra results for later view and remove them from both python objects built on the data from CSV files. Note - Your original csv files both sources will remain intact.
 
 Benifits
